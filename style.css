@@ -45,7 +45,86 @@ body, body * {
   width: 100%;
   position: absolute;
   transform: translateY(250px);
-  transition: 5s linear;
+  transition: 9s linear;
+}
+
+#heading-1 {
+  top: 10px;
+  left: 20px;
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  background-color: green;
+  transform: translate(-20px -20px) scale(2);
+  transition: 300ms linear;
+}
+
+#heading-2 {
+  top: 50px;
+  left: 20px;
+  width: 90px;
+  height: 30px;
+  position: absolute;
+  background-color: red;
+  transform: translate(-20px -70px) scale(2);
+  transition: 300ms linear;
+}
+
+#heading-3 {
+  top: 50px;
+  left: 120px;
+  width: 90px;
+  height: 30px;
+  position: absolute;
+  background-color: purple;
+  transform: translate(-20px -70px) scale(2);
+  transition: 300ms linear;
+}
+
+#heading-4 {
+  top: 90px;
+  left: 20px;
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  background-color: yellow;
+  transform: translate(-10px -160px) scale(2);
+  transition: 300ms linear;
+}
+
+#text-1 {
+  top: 130px;
+  left: 40px;
+  width: 240px;
+  position: absolute;
+}
+
+#text-2 {
+  top: 130px;
+  left: 40px;
+  width: 240px;
+  position: absolute;
+}
+
+#footer {
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  background-color: blue;
+  transform: translateY(30px);
+  transition: 300ms linear;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: 300ms linear;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: 300ms linear;
 }
 
 :focus {
